@@ -28,7 +28,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'django_filters',
     'company',
+    'drf_yasg'
 ]
 
 MIDDLEWARE = [
@@ -58,6 +61,9 @@ TEMPLATES = [
         },
     },
 ]
+
+
+TEMPLATE_LOADERS = ['django.template.loaders.eggs.Loader',]
 
 WSGI_APPLICATION = 'config.wsgi.application'
 
