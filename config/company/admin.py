@@ -26,5 +26,5 @@ class DepartmentAdmin(admin.ModelAdmin):
 
 
 #Banner Naming
-admin.site.site_title = "BBINFO"
-admin.site.site_header = "BBINFO"
+admin.site.site_title = "BvBINFO"
+admin.site.site_header = "BvBINFO"
